@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37970" started-at="2020-03-03T09:31:21 CST" finished-at="2020-03-03T09:31:59 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37970" started-at="2020-03-03T09:31:21 CST" finished-at="2020-03-03T09:31:59 CST">
+      <class name="testCases.TC_FillForm">
+        <test-method status="PASS" signature="TC4_w3schoold(java.lang.String)[pri:1, instance:testCases.TC_FillForm@6483f5ae]" name="TC4_w3schoold" duration-ms="37901" started-at="2020-03-03T09:31:21 CST" finished-at="2020-03-03T09:31:59 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_w3schoold -->
+      </class> <!-- testCases.TC_FillForm -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

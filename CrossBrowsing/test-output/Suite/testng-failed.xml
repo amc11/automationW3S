@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="ChromeTestCases(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_FillForm">
+        <methods>
+          <include name="TC4_w3schoold" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testCases.TC_FillForm -->
+    </classes>
+  </test> <!-- ChromeTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->

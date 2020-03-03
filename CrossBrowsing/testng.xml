@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+	<test name="InternetExplorerTestCases">
+		<parameter name="browserName" value="internet explorer" />
+		<classes>
+			<class name="testCases.TC_FillForm" />
+		</classes>
+	</test>
+
+	<test name="MicrosoftEdge">
+		<parameter name="browserName" value="MicrosoftEdge" />
+		<classes>
+			<class name="testCases.TC_FillForm" />
+		</classes>
+	</test>
+	
+	<test name="FireFoxTestCases">
+		<parameter name="browserName" value="firefox" />
+		<classes>
+			<class name="testCases.TC_FillForm" />
+		</classes>
+	</test>
+
+	<test name="ChromeTestCases">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<class name="testCases.TC_FillForm" />
+		</classes>
+	</test>
+</suite> 
